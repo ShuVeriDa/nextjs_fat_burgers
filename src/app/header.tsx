@@ -1,5 +1,6 @@
 import {FC} from 'react';
 import {SiBurgerking} from 'react-icons/si'
+import Link from "next/link";
 interface IHeaderProps {
 }
 
@@ -10,10 +11,10 @@ export const Header: FC<IHeaderProps> = () => {
         <SiBurgerking />
       </div>
       <nav>
-        <a href="">Домой</a>
-        <a href="">О нас</a>
-        <a href="">Отзывы</a>
-        <a href="">Бургеры</a>
+        <Link href="/">Домой</Link>
+        <Link href="/about">О нас</Link>
+        <Link href="/review">Отзывы</Link>
+        <Link href="/burgers">Бургеры</Link>
       </nav>
     </header>
   );

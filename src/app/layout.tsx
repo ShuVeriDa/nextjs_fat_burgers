@@ -1,4 +1,4 @@
-import './globals.css'
+import '../styles/globals.css'
 import {Header} from "@/app/header";
 import {Footer} from "@/app/footer";
 import {MainLayout} from "@/app/mainLayout";

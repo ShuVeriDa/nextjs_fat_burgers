@@ -13,7 +13,7 @@ export default function Home() {
         составляющих начинки можно поспорить, ведь это дело вкуса.</p>
       <p className={styles.text}>Есть ещё пара-тройка факторов, влияющих на аппетит: цены, качество обслуживания,
         правильная атмосфера заведения.</p>
-      <Link href='/burgers' className={styles.btn}>Все бургеры</Link>
+      <Link href='/burgers' className={styles.btn}>Все бургеры</Link>ds
     </main>
 
   )
